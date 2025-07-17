@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+ <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!--library for icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <!--nav bar-->
+    <div class="bg-gradient-to-r from-purple-600 to-pink-300 text-white w-full h-15">
+        <div class="ml-5">
+  <ul class="flex gap-10">
+    <li class="flex flex-col items-center">
+      <i data-feather="home"></i>
+      <a href="index.html" class="text-white hover:underline">Home</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="user"></i>
+      <a href="pages/about.html" class="text-white hover:underline">About</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="folder"></i>
+      <a href="pages/projects.html" class="text-white hover:underline">Projects</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="mail"></i>
+      <a href="pages/contact.html" class="text-white hover:underline">Contact</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="globe"></i>
+      <a href="pages/find.html" class="text-white hover:underline">Find Me!</a>
+    </li>
+  </ul>
+</div>
+</div>
+<div class="bg-white text-purple-600 w-full h-1"></div>
+    <!--1st section-->
+    <div class="bg-gradient-to-r from-purple-600 to-pink-300 text-white min-h-screen flex flex-col justify-between items-center p-8">
+        <!-- Avatar and Name -->
+  <div class="text-center mb-12">
+    <img src="../image/portfolio-pic.jpg" class="mx-auto w-52 h-52 rounded-full shadow-lg hover:scale-105 transition duration-500" />
+    <h2 class="text-3xl font-bold mt-6">Hi, I'm Isha</h2>
+    <p class="text-md italic mt-2">B.Tech CSE | IGDTUW</p>
+    <p class="text-2xl mt-10">Web Developer-Frontend | Tech Enthusiast</p>
+    <p class="text-sm mt-5 italic">"Always learning,Always building,Always evolving"</p>
+  </div>
+
+   <!-- Education Timeline -->
+  <div class="max-w-xl w-full mb-12">
+    <h3 class="text-2xl font-semibold mb-6 text-center">🎓 Education Timeline</h3>
+    <ul class="border-l-4 border-purple-400 pl-6 space-y-6">
+      <li>
+        <div class="text-lg font-bold">2024 - 2028</div>
+        <div class="text-sm">B.Tech in Computer Science – IGDTUW</div>
+      </li>
+      <li>
+        <div class="text-lg font-bold">2024</div>
+        <div class="text-sm">Senior Secondary – CBSE (PCM + CS)</div>
+      </li>
+      <li>
+        <div class="text-lg font-bold">2022</div>
+        <div class="text-sm">High School – CBSE</div>
+      </li>
+    </ul>
+  </div>
+
+<!-- CTA Button -->
+  <div>
+    <button class="mt-10 bg-white text-purple-600 p-2 mt-5 rounded-lg hover:bg-purple-200 hover:scale-105 transition transform duration-500">Download Portfolio</button>
+  </div>
+</div>
+    </div>
+
+ <script>
+  feather.replace();
+   </script>
+
+</body>

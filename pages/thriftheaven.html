@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+ <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!--library for icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!--nav bar-->
+    <div class="bg-gradient-to-r from-purple-600 to-pink-300 text-white w-full h-15">
+        <div class="ml-5">
+  <ul class="flex gap-10">
+    <li class="flex flex-col items-center">
+      <i data-feather="home"></i>
+      <a href="home.html" class="text-white hover:underline">Home</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="user"></i>
+      <a href="about.html" class="text-white hover:underline">About</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="folder"></i>
+      <a href="projects.html" class="text-white hover:underline">Projects</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="mail"></i>
+      <a href="contact.html" class="text-white hover:underline">Contact</a>
+    </li>
+    <li class="flex flex-col items-center">
+      <i data-feather="globe"></i>
+      <a href="find.html" class="text-white hover:underline">Find Me!</a>
+    </li>
+  </ul>
+</div>
+</div>
+<div class="bg-white text-purple-600 w-full h-1"></div>
+
+<div class="bg-gradient-to-br from-purple-600 to-pink-300 min-h-screen p-10">
+  <h2 class="text-3xl font-bold text-center text-white mb-8">Project Screenshots</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+    <!-- Screenshot Card 1 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden  hover:border-purple-700 transition transform ">
+      <img src="../image/thrift-1.jpg" alt="Screenshot 1" class="max-full object-cover" />
+    </div>
+
+    <!-- Screenshot Card 2 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden  hover:border-purple-700 transition transform ">
+      <img src="../image/thrift.jpg" alt="Screenshot 2" class="w-full object-cover" />
+    </div>
+
+    <!-- Screenshot Card 3 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden  hover:border-purple-700 transition transform ">
+      <img src="../image/thrift-3.jpg" alt="Screenshot 3" class="w-full object-cover" />
+    </div>
+
+    <!-- Screenshot Card 4 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden  hover:border-purple-700 transition transform ">
+      <img src="../image/thrift-4.jpg" alt="Screenshot 4" class="w-full object-cover" />
+    </div>
+  </div>
+</div>
+
+<script>
+    feather.replace();
+</script>
+</body>
